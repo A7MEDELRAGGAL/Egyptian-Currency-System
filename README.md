@@ -66,11 +66,11 @@ The model achieved state-of-the-art results on the testing dataset:
 Here is a glimpse of the model's performance in recognizing different Egyptian banknotes:
 
 ### 1. Real-time Detection Examples
-![Predictions](Egyptian_Currency_Results/val_batch0_pred.jpg)
+![Predictions](Egyptian_Currency_Results/content/runs/detect/Egyptian_Currency_Final/val_batch0_pred.jpg)
 *Bounding boxes accurately identifying the currency class and confidence score.*
 
 ### 2. Normalized Confusion Matrix
-<img src="Egyptian_Currency_Results/confusion_matrix_normalized.png" width="600">
+<img src="Egyptian_Currency_Results/content/runs/detect/Egyptian_Currency_Final/confusion_matrix_normalized.png" width="600">
 *The diagonal dark blue line proves the model's near-perfect accuracy with zero false positives across all 12 classes.*
 
 ### 3. Training Curves
