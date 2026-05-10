@@ -58,3 +58,23 @@ The model achieved state-of-the-art results on the testing dataset:
 ## 📱 Future Roadmap
 * **Mobile Integration:** Porting the exported `.tflite` model into a Flutter or Unity application.
 * **Polymer Notes Update:** Expanding the dataset to include the new Egyptian 10 and 20 EGP polymer banknotes.
+
+---
+
+## 👁️ Visual Results & Performance
+
+Here is a glimpse of the model's performance in recognizing different Egyptian banknotes:
+
+### 1. Real-time Detection Examples
+![Predictions](Egyptian_Currency_Results/val_batch0_pred.jpg)
+*Bounding boxes accurately identifying the currency class and confidence score.*
+
+### 2. Normalized Confusion Matrix
+<img src="Egyptian_Currency_Results/confusion_matrix_normalized.png" width="600">
+*The diagonal dark blue line proves the model's near-perfect accuracy with zero false positives across all 12 classes.*
+
+### 3. Training Curves
+<img src="Egyptian_Currency_Results/results.png" width="800">
+*Graphs showing the steady decrease in loss and the rapid convergence of Precision and Recall over the training epochs.*
+
+---
