@@ -74,7 +74,7 @@ Here is a glimpse of the model's performance in recognizing different Egyptian b
 *The diagonal dark blue line proves the model's near-perfect accuracy with zero false positives across all 12 classes.*
 
 ### 3. Training Curves
-<img src="Egyptian_Currency_Results/results.png" width="800">
+<img src="Egyptian_Currency_Results/content/runs/detect/Egyptian_Currency_Final/results.png" width="800">
 *Graphs showing the steady decrease in loss and the rapid convergence of Precision and Recall over the training epochs.*
 
 ---
